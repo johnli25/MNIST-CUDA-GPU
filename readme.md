@@ -1,10 +1,6 @@
-# ECE408/CS483 Final Project
-
 ## Introduction
 
-This is the skeleton code for the Fall 2021 ECE408 / CS483 / CSE408 course project.
-
-In this final project, you will be implementing and optimizing the forward-pass of a convolutional layer using CUDA. Convolutional layers are the primary building blocks of convolutional neural networks (CNNs), which are used in many machine learning tasks like image classification, object detection, natural language processing, and recommendation systems. In general, CNNs work well on tasks where the data/input features have some level of spatial relationship.
+In this project, you will be implementing and optimizing the forward-pass of a convolutional layer using CUDA. Convolutional layers are the primary building blocks of convolutional neural networks (CNNs), which are used in many machine learning tasks like image classification, object detection, natural language processing, and recommendation systems. In general, CNNs work well on tasks where the data/input features have some level of spatial relationship.
 
 You will be working with a **modified** version of the LeNet-5 architecture shown below.
 
@@ -48,8 +44,6 @@ For each milestone, you will include a PDF `report.pdf` file in the project dire
 | Use `./rai -p <project folder> --submit=m1` to mark your job for grading |
 
 Clone this repository to get the project folder.
-
-    git clone -b 2021fa https://github.com/illinois-impact/ece408_project.git
 
 Download the rai binary for your platform from [here](https://drive.google.com/drive/folders/1Pp84x3So9OEHUwRHQVZcRP441wRsO-UV). 
 You will probably use it for development, and definitely use it for submission. After downloading the rai binary, rename it to `rai` so that it is consistent with the instructions in this document. Also give `rai` execute permission by running in the folder you placed it.
@@ -218,11 +212,6 @@ to mark your submission for grading. Make sure to include your `report.pdf` in y
 | Use `./rai -p <project folder> --submit=m2` to mark your job for grading |
 
 ### Create a GPU Implementation
-
-First, make sure you have the most up-to-date version of the project repository by going to the project root directory and running:
-
-    git fetch origin 2021fa
-    git merge origin/2021fa
 
 Modify `custom/new-forward.cu` to create GPU implementation of the forward convolution. This should be a basic convolution implement that does not include shared-memory or tiling.
 
@@ -483,18 +472,3 @@ The code in `m1.cc`, `m2.cc`, and `m3.cc` are the top level files that are execu
 ## License
 
 NCSA/UIUC © 2021 [Carl Pearson](https://cwpearson.github.io)
-
-## Contributors
-
-* [Carl Pearson](https://cwpearson.github.io)
-* [Vikram Mailthody](https://github.com/msharmavikram/)
-* Andrew Schuh
-* Abdul Dakkak
-* Zaid Qureshi
-* Rui Lan
-* Zhicun Wan
-* Ben Schreiber
-* James Cyriac
-* Jonathan Nativ
-* Henry Haase
-
