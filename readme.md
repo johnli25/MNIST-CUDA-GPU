@@ -31,8 +31,6 @@ You will be working on this project individually.
 
 ## Milestone 1: Rai Installation, CPU convolution, Profiling
 
-***Deadline: October 15th, 8 PM CST***
-
 For each milestone, you will include a PDF `report.pdf` file in the project directory you submit with rai. You can create this report by filling out the template report (.docx) that we have provided for each milestone and exporting it as a PDF file.
 
 
@@ -202,8 +200,6 @@ to mark your submission for grading. Make sure to include your `report.pdf` in y
 
 ## Milestone 2: Baseline Convolutional Kernel
 
-***Deadline: November 5th, 8 PM CST***
-
 | Deliverables |
 | ------------ |
 | Implement a GPU Convolution kernel |
@@ -316,8 +312,6 @@ to mark your submission for grading. Make sure to include your `report.pdf` in y
 
 ## Milestone 3: GPU Convolution Kernel Optimizations
 
-***Deadline: December 3rd, 8 PM CST***
-
 | Deliverables |
 | ------------ |
 | Implement multiple GPU optimizations |
@@ -378,25 +372,6 @@ Use
     rai -p <project folder> --submit=m3
     
 to submit your project folder. Make sure to include your `report.pdf` in your `<project folder>`. Make sure you answer all items listed above for this milestone, and include your name, NetID, and class section.
-
-## Rubric
-
-The overall project score will be computed as follows:
-
-1. Milestone 1 ( 20% )
-    * Correctness ( 15% )
-    * Report ( 5% )
-2. Milestone 2 ( 20% )
-    * Correctness ( 15% )
-    * Report( 5% )
-3. Milestone 3 ( 60% )
-    * Overall Performance ( 10% )
-    * Correctness ( 3% for each optimization point )
-    * Report ( 2% for each optimization point )
-4. Extra Credit ( up to +5% maximum )
-    * Top 10 on leaderboard ( +5% )
-    * Top 30 on leaderboard ( +3% )
-    * Top 50 on leaderboard ( +1% )
 
 This semester, ranking will be made available, via the `rai ranking` command.
 
@@ -468,6 +443,8 @@ Nsight-Compute can be installed as a standalone application. You do not need CUD
 `custom/cpu-new-forward.cc` and `custom/new-forward.cu` containes skeleton implementations for the CPU and GPU convolutions respectively. You can complete the project by modifying these two files only. `custom/cpu-new-forward.h` and `custom/gpu-new-forward.h` are the respective header files. You need not modify these files unless you need to declare your own functions.
 
 The code in `m1.cc`, `m2.cc`, and `m3.cc` are the top level files that are executed for each milestone. You should not be modifying these files.
+
+*This project was part of ECE 408: Applied Parallel Programming at the University of Illinois at Urbana-Champaign. More information about this course can be found online* 
 
 ## License
 
