@@ -444,7 +444,7 @@ Nsight-Compute can be installed as a standalone application. You do not need CUD
 
 The code in `m1.cc`, `m2.cc`, and `m3.cc` are the top level files that are executed for each milestone. You should not be modifying these files.
 
-*This project was part of ECE 408: Applied Parallel Programming at the University of Illinois at Urbana-Champaign. More information about this course can be found online* 
+*This project was part of ECE 408: Applied Parallel Programming at the University of Illinois at Urbana-Champaign. More information about this course can be found online.* 
 
 ## License
 
